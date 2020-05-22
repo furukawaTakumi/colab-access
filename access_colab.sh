@@ -8,6 +8,6 @@ fi
 for count in `seq 12`
 do
   echo "$count" `date '+%y/%m/%d %H:%M:%S'` "connected."
-  curl $1
+  open $1
   sleep 3600
 done
